@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #042f2e;
+}
+
+.container {
+  border: 1px solid #042f2e;
+  background-color: #fff;
+  margin: 0 400px;
+  padding: 10px 10px;
+}
+
+.stats,
+.buttons,
+.text-div,
+.monster {
+  border: 1px solid #042f2e;
+  padding: 5px;
+}
+
+.stats {
+  color: #042f2e;
+}
+
+button {
+  background-color: #f86f03;
+  background-image: linear-gradient(#f86f03, #f86f03);
+  color: #042f2e;
+  border: 1px solid #f86f03;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* .monster {
+  display: none;
+} */
+
+.monster {
+  background-color: #d71313;
+  color: #fff;
+}
+
+.text-div {
+  background-color: #042f2e;
+  color: #fff;
+}
+
+@media (max-width: 1220px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1162px) {
+  .container {
+    margin: 0 350px;
+  }
+}
+
+@media (max-width: 1087px) {
+  .stats {
+    display: flex;
+    flex-direction: column;
+  }
+  .monster .stat {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .container {
+    margin: 0 300px;
+  }
+}
+
+@media (max-width: 1002px) {
+  .container {
+    margin: 0 250px;
+  }
+}
+
+@media (max-width: 998px) {
+  .container {
+    margin: 0 200px;
+  }
+}
+
+@media (max-width: 824px) {
+  .container {
+    margin: 0 150px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    margin: 0 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 0;
+  }
+}
